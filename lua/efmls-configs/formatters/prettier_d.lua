@@ -8,6 +8,7 @@ local command = string.format(
 )
 
 return {
+  formatCanasdaw = true,
   formatCommand = command,
   formatStdin = true,
   rootMarkers = require("efmls-configs.formatters.prettier").rootMarkers,
